@@ -7,6 +7,7 @@ const TEAMWORK = "TEAMWORK";
 const ACCESEBILITY = "ACCESEBILITY";
 const TESTABILITY = "TESTABILITY";
 const TEST = "TEST";
+const INTUATIVITY = "INTUATIVITY";
 
 const SPEED_RU = "Скорость";
 const COMPATIBILITY_RU = "Совместимость";
@@ -17,6 +18,8 @@ const TEAMWORK_RU = "Командная работа";
 const ACCESEBILITY_RU = "Доступность";
 const TESTABILITY_RU = "Тестирование";
 const TEST_RU = "Тестовый";
+const INTUATIVITY_RU = "Интуитивность";
+
 
 export const options = [
     {name: SPEED, nameRu: SPEED_RU},
@@ -28,6 +31,7 @@ export const options = [
     {name: ACCESEBILITY, nameRu: ACCESEBILITY_RU},
     {name: TESTABILITY, nameRu: TESTABILITY_RU},
     {name: TEST, nameRu: TEST_RU},
+    {name: INTUATIVITY, nameRu: INTUATIVITY_RU},
 ];
 
 export const applications = [
@@ -78,6 +82,11 @@ export const applications = [
                 name: TEST,
                 nameRu: TEST_RU,
                 rate: 10
+            },
+            {
+                name: INTUATIVITY,
+                nameRu: INTUATIVITY_RU,
+                rate: 8
             }
         ]
     },
@@ -127,6 +136,11 @@ export const applications = [
                         {
                 name: TEST,
                 nameRu: TEST_RU,
+                rate: 7
+            },
+            {
+                name: INTUATIVITY,
+                nameRu: INTUATIVITY_RU,
                 rate: 7
             }
         ]
@@ -178,6 +192,11 @@ export const applications = [
                 name: TEST,
                 nameRu: TEST_RU,
                 rate: 1
+            },
+            {
+                name: INTUATIVITY,
+                nameRu: INTUATIVITY_RU,
+                rate: 10
             }
         ]
     },
@@ -228,7 +247,12 @@ export const applications = [
                 name: TEST,
                 nameRu: TEST_RU,
                 rate: 4
-            }
+            },
+            {
+                name: INTUATIVITY,
+                nameRu: INTUATIVITY_RU,
+                rate: 5
+            }     
         ]
     },
     {
@@ -278,6 +302,11 @@ export const applications = [
                 name: TEST,
                 nameRu: TEST_RU,
                 rate: 3
+            },
+            {
+                name: INTUATIVITY,
+                nameRu: INTUATIVITY_RU,
+                rate: 4
             }
         ]
     }
